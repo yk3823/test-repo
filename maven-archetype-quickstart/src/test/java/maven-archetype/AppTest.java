@@ -1,4 +1,4 @@
-package 1;
+package maven-archetype;
 
 import static org.junit.Assert.assertTrue;
 
