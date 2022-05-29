@@ -5,11 +5,12 @@ pipeline {
     tools {
         jdk 'oracle-7u80'
     }
+    
     stages {
     stage('maven install') {
       steps {
         withMaven(jdk: 'oracle-7u80', maven: 'Maven3') {
-        sh 'mvn clean install'
+        sh 'mvn -f my-app/pom.xml clean install'
 }
       }
     }
