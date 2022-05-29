@@ -1,6 +1,6 @@
 pipeline {
     agent {
-      label 'linux'
+      any
     }
     tools {
         jdk 'oracle-7u80'
