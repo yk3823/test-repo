@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.mycompany.app.AppTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.mycompany.app.AppTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="18.0.1.1+2-6"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
     <property name="user.country.format" value="IL"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/javaProject/test-repo/my-app"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/javaProject/test-repo"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\javaProject\test-repo\my-app"/>
+    <property name="user.dir" value="C:\javaProject\test-repo"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="18.0.1.1+2-6"/>
     <property name="os.arch" value="amd64"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:/Users/JosephKeenan/Downloads/maven/apache-maven-3.8.5/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\JosephKeenan\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\JosephKeenan\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\TDM-GCC-64\bin;C:\Program Files\nodejs;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Users\JosephKeenan\kubectlbinary;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\aws.exe;C:\Program Files\dotnet;C:\Program Files\Amazon\AWSSAMCLI\bin;C:\Users\JosephKeenan\scoop\shims;C:\Users\JosephKeenan\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\JosephKeenan\AppData\Local\Programs\Python\Python37-32;C:\Users\JosephKeenan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.2\bin;C:\Users\JosephKeenan\AppData\Roaming\Composer\vendor\bin;C:\xampp\mysql\bin;C:\Users\JosephKeenan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JosephKeenan\AppData\Local\Microsoft\WindowsApps;C:\Users\JosephKeenan\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\JosephKeenan\Downloads\terraform;C:\Program Files\Amazon\AWSCLIV2\aws.exe;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\JosephKeenan\Downloads\maven\apache-maven-3.8.5\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\JosephKeenan\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\TDM-GCC-64\bin;C:\Program Files\nodejs;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Users\JosephKeenan\kubectlbinary;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\aws.exe;C:\Program Files\dotnet;C:\Program Files\Amazon\AWSSAMCLI\bin;C:\Users\JosephKeenan\scoop\shims;C:\Users\JosephKeenan\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\JosephKeenan\AppData\Local\Programs\Python\Python37-32;C:\Users\JosephKeenan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.2\bin;C:\Users\JosephKeenan\AppData\Roaming\Composer\vendor\bin;C:\xampp\mysql\bin;C:\Users\JosephKeenan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JosephKeenan\AppData\Local\Microsoft\WindowsApps;C:\Users\JosephKeenan\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\JosephKeenan\Downloads\terraform;C:\Program Files\Amazon\AWSCLIV2\aws.exe;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\JosephKeenan\Downloads\maven\apache-maven-3.8.5\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\bin;."/>
     <property name="maven.conf" value="C:/Users/JosephKeenan/Downloads/maven/apache-maven-3.8.5/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="62.0"/>
@@ -52,13 +52,15 @@
     <property name="java.version" value="18.0.1.1"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
     <property name="maven.home" value="C:\Users\JosephKeenan\Downloads\maven\apache-maven-3.8.5"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2022-04-22"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mycompany.app.AppTest" name="shouldAnswerWithTrue" time="0.004"/>
+  <testcase classname="com.mycompany.app.AppTest" name="shouldAnswerWithTrue" time="0.003"/>
 </testsuite>
